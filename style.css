@@ -1,0 +1,50 @@
+* {
+    background-color: white;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 75px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 0px 10px;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.answers {
+    color: black;
+    background-color: aqua;
+    height: 50px;
+}
+
+#submitted-msg {
+    text-align: center;
+    margin-bottom: 3rem;
+    border-radius: 3px;
+    padding: 0.5rem;
+    color: #fff;
+    display: none;
+}
+
+.answers:hover {
+    background-color: rgb(17, 184, 184);
+}
